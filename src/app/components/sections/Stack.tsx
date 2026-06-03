@@ -23,7 +23,7 @@ export const Stack = () => {
           className="md:col-span-4"
         >
           <h2 className="font-headline-md text-headline-md text-on-surface flex items-center gap-2">
-            <span className="text-primary-fixed-dim animate-pulse">_</span> STACK
+            <span className="text-primary-fixed-dim animate-pulse"></span> STACK
           </h2>
         </motion.div>
         
