@@ -18,7 +18,7 @@ export const Header = () => {
         </div>
 
         <nav className="hidden md:flex gap-stack-lg">
-          {["work", "stack", "experience", "contact"].map((item) => (
+          {["project", "tech stack", "experience", "contact"].map((item) => (
             <Link
               key={item}
               href={`#${item}`}
