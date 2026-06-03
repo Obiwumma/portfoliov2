@@ -13,7 +13,7 @@ export const Header = () => {
     >
       <div className="flex justify-between items-center w-full h-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto">
         <div className="font-headline-md text-headline-md font-bold text-on-surface tracking-tight flex items-center gap-1">
-          <span className="text-primary-fixed-dim">&gt;_</span>
+          <span className="text-primary-fixed-dim">PASCAL</span>
           OBIWUMMA
         </div>
 
@@ -31,9 +31,9 @@ export const Header = () => {
 
         <div className="flex items-center gap-stack-md">
           {/* Removed Terminal Icon. Upgraded Resume button interactions */}
-          <button className="hidden md:block font-label-caps text-label-caps border border-outline-variant px-5 py-2.5 rounded hover:border-primary-fixed-dim hover:text-primary-fixed-dim hover:shadow-[0_0_15px_rgba(102,252,241,0.2)] transition-all duration-300 text-on-surface bg-background">
+          <a href="/fullstack-cv.pdf" download="PascalObiwumma_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:block font-label-caps text-label-caps border border-outline-variant px-5 py-2.5 rounded hover:border-primary-fixed-dim hover:text-primary-fixed-dim hover:shadow-[0_0_15px_rgba(102,252,241,0.2)] transition-all duration-300 text-on-surface bg-background">
             RESUME
-          </button>
+          </a>
         </div>
       </div>
     </motion.header>
