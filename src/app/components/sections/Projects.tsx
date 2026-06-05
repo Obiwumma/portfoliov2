@@ -16,7 +16,7 @@ export const Projects = () => {
           className="md:col-span-4"
         >
           <h2 className="font-headline-md text-headline-md text-on-surface uppercase flex items-center gap-3">
-            <span className="text-primary-fixed-dim animate-pulse">_</span>
+            <span className="text-primary-fixed-dim animate-pulse"></span>
             PROJECTS
           </h2>
         </motion.div>
@@ -33,7 +33,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800" 
+                src="/lockerroom.png" 
                 alt="Lockerroom Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -64,13 +64,12 @@ export const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4 mt-2 pt-4 border-t border-outline-variant/50">
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+                  <Link href="https://codealpha-tasks-e-commerce.vercel.app/login" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
                     [ LIVE DEMO ]
                   </Link>
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">code</span>
-                    [ SOURCE ]
+                  <Link href="https://github.com/Obiwumma/codealpha_tasks_E-commerce" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                    {/* <span className="material-symbols-outlined text-[16px]">code</span> */}
+                    [ SOURCE CODE ]
                   </Link>
                 </div>
               </div>
@@ -87,7 +86,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800" 
+                src="/spotify-clone.png" 
                 alt="Spotify Web Player Clone" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -117,13 +116,13 @@ export const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4 mt-2 pt-4 border-t border-outline-variant/50">
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+                  <Link href="https://github.com/Obiwumma/react-spotify" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                    {/* <span className="material-symbols-outlined text-[16px]">open_in_new</span> */}
                     [ LIVE DEMO ]
                   </Link>
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">code</span>
-                    [ SOURCE ]
+                  <Link href="https://github.com/Obiwumma/react-spotify" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                    {/* <span className="material-symbols-outlined text-[16px]"></span> */}
+                    [ SOURCE CODE]
                   </Link>
                 </div>
               </div>
@@ -140,7 +139,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" 
+                src="/banking.png" 
                 alt="Veritas Bank Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -170,9 +169,9 @@ export const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4 mt-2 pt-4 border-t border-outline-variant/50">
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">open_in_new</span>
-                    [ SECURE PORTAL ]
+                  <Link href="https://veritas-frontend-snowy.vercel.app/" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                    {/* <span className="material-symbols-outlined text-[16px]">open_in_new</span> */}
+                    [ LIVE DEMO ]
                   </Link>
                 </div>
               </div>
@@ -189,7 +188,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=800" 
+                src="/ai-predicton.png" 
                 alt="Predictive ML Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -219,14 +218,14 @@ export const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4 mt-2 pt-4 border-t border-outline-variant/50">
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
-                    <span className="material-symbols-outlined text-[16px]">code</span>
-                    [ REPO ]
+                  <Link href="https://github.com/Obiwumma/Admission-Prediction-System-XAI" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                    <span className="material-symbols-outlined text-[16px]"></span>
+                    [ SOURCE CODE ]
                   </Link>
-                  <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
+                  {/* <Link href="#" target="_blank" className="font-label-caps text-label-caps flex items-center gap-1 text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200">
                     <span className="material-symbols-outlined text-[16px]">description</span>
                     [ PAPER/DOCS ]
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
