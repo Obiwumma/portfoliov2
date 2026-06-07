@@ -100,9 +100,23 @@
   --text-headline-xl-mobile--font-weight: 700;
 }
 
+/* =========================================
+   CUSTOM UTILITIES
+   ========================================= */
 @layer utilities {
   .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined' !important;
     font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
   }
   
   html {
