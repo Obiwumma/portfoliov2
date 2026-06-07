@@ -43,9 +43,9 @@ export const Projects = () => {
               <div className="absolute inset-0 bg-primary-fixed-dim/20 mix-blend-color group-hover:opacity-0 transition-opacity duration-500 pointer-events-none"></div>
             </div>
 
-            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
+            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
             
-            <div className="p-stack-lg flex flex-col flex-grow relative z-10">
+            <div className="p-stack-lg flex flex-col grow relative z-10">
               <div className="mb-stack-lg">
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2 group-hover:text-primary-fixed-dim transition-colors duration-300">
                   <span className="text-primary-fixed-dim opacity-50 text-sm font-normal">&gt;_</span>
@@ -95,9 +95,9 @@ export const Projects = () => {
               <div className="absolute inset-0 bg-primary-fixed-dim/20 mix-blend-color group-hover:opacity-0 transition-opacity duration-500 pointer-events-none"></div>
             </div>
 
-            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
+            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
             
-            <div className="p-stack-lg flex flex-col flex-grow relative z-10">
+            <div className="p-stack-lg flex flex-col grow relative z-10">
               <div className="mb-stack-lg">
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2 group-hover:text-primary-fixed-dim transition-colors duration-300">
                   <span className="text-primary-fixed-dim opacity-50 text-sm font-normal">&gt;_</span>
@@ -148,9 +148,9 @@ export const Projects = () => {
               <div className="absolute inset-0 bg-primary-fixed-dim/20 mix-blend-color group-hover:opacity-0 transition-opacity duration-500 pointer-events-none"></div>
             </div>
 
-            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
+            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
             
-            <div className="p-stack-lg flex flex-col flex-grow relative z-10">
+            <div className="p-stack-lg flex flex-col grow relative z-10">
               <div className="mb-stack-lg">
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2 group-hover:text-primary-fixed-dim transition-colors duration-300">
                   <span className="text-primary-fixed-dim opacity-50 text-sm font-normal">&gt;_</span>
@@ -197,9 +197,9 @@ export const Projects = () => {
               <div className="absolute inset-0 bg-primary-fixed-dim/20 mix-blend-color group-hover:opacity-0 transition-opacity duration-500 pointer-events-none"></div>
             </div>
 
-            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
+            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-primary-fixed-dim to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
             
-            <div className="p-stack-lg flex flex-col flex-grow relative z-10">
+            <div className="p-stack-lg flex flex-col grow relative z-10">
               <div className="mb-stack-lg">
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2 group-hover:text-primary-fixed-dim transition-colors duration-300">
                   <span className="text-primary-fixed-dim opacity-50 text-sm font-normal">&gt;_</span>
