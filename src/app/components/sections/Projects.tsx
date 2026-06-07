@@ -33,7 +33,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="/lockerroom.png" 
+                src="/lockerroom.PNG" 
                 alt="Lockerroom Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -86,7 +86,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="/spotify-clone.png" 
+                src="/spotify-clone.PNG" 
                 alt="Spotify Web Player Clone" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -139,7 +139,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="/banking.png" 
+                src="/banking.PNG" 
                 alt="Veritas Bank Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -188,7 +188,7 @@ export const Projects = () => {
           >
             <div className="relative w-full h-48 border-b border-outline-variant overflow-hidden bg-surface-container-lowest">
               <Image 
-                src="/ai-predicton.png" 
+                src="/ai-predicton.PNG" 
                 alt="Predictive ML Interface" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
