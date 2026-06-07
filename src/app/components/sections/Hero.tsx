@@ -12,7 +12,7 @@ export const Hero = () => {
         transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="font-code-sm text-primary-fixed-dim mb-4 tracking-widest uppercase">
-          Web Developer
+          Fullstack Web Developer
         </div>
         <h1 className="font-headline-xl-mobile text-headline-xl-mobile md:font-headline-xl md:text-headline-xl text-on-surface mb-stack-md max-w-4xl">
           Building scalable web applications and high-performance interfaces.

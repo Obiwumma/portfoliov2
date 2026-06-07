@@ -52,7 +52,7 @@ export const Contact = () => {
           className="mb-stack-lg"
         >
           <h2 className="font-headline-md text-headline-md text-on-surface flex items-center gap-2">
-            <span className="text-primary-fixed-dim material-symbols-outlined text-[20px]">mail</span>
+            <span className="text-primary-fixed-dim material-symbols-outlined text-[20px]"></span>
             Contact
           </h2>
         </motion.div>
@@ -71,7 +71,7 @@ export const Contact = () => {
               Let&apos;s build something scalable.
             </h3>
             <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-md">
-              I am currently available for freelance contracts, full-time roles, and complex architectural builds. Drop me a line and let&apos;s discuss your system requirements.
+             Available for freelance contracts and full-time web development roles. Let&apos;s connect and turn your ideas into clean, scalable web applications.
             </p>
             
             <div className="mt-stack-md flex flex-col gap-3">
@@ -186,7 +186,7 @@ export const Contact = () => {
                   className="mt-2 w-full md:w-auto self-start font-label-caps text-label-caps border border-primary-fixed-dim bg-primary-fixed-dim/10 text-primary-fixed-dim px-8 py-3 rounded-md hover:bg-primary-fixed-dim hover:text-on-primary hover:shadow-[0_0_20px_rgba(6,182,212,0.4)] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? 'TRANSMITTING...' : 'SEND MESSAGE'}
-                  {!isSubmitting && <span className="material-symbols-outlined text-[16px]">send</span>}
+                  {!isSubmitting && <span className="material-symbols-outlined text-[16px]"></span>}
                 </button>
               </form>
             )}
