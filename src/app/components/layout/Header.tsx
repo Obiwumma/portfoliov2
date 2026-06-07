@@ -18,13 +18,18 @@ export const Header = () => {
         </div>
 
         <nav className="hidden md:flex gap-stack-lg">
-          {["project", "tech stack", "experience", "contact"].map((item) => (
+          {[
+            { label: "Projects", target: "work" },
+            { label: "Tech Stack", target: "stack" },
+            { label: "Experience", target: "experience" },
+            { label: "Contact", target: "contact" }
+          ].map((item) => (
             <Link
-              key={item}
-              href={`#${item}`}
+              key={item.target}
+              href={`#${item.target}`}
               className="font-nav-link text-nav-link text-on-surface-variant hover:text-primary-fixed-dim transition-colors duration-200 uppercase tracking-widest"
             >
-              {item}
+              {item.label}
             </Link>
           ))}
         </nav>
