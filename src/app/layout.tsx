@@ -18,8 +18,14 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "P. OBIWUMMA // SYSTEMS ARCHITECT",
-  description: "Architecting Scalable Systems & High-Performance Interfaces.",
+  title: "P. OBIWUMMA // WEB DEVELOPER",
+  description: "Building scalable web applications and high-performance interfaces.",
+  verification: {
+    google: "lpOBuY2bxTZWrg5xWRmy9bBLXEZ6X0MD_HP6RZ32UM8", 
+  },
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
